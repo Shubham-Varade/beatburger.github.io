@@ -13,7 +13,7 @@ breadcrumbs:
 <div id="stats-page">
   <h1>Stats Calculator</h1>
   {% assign allBotsDetails = site.data.base-stats | sort: "botName" %}
-  <div id="stats-input-section">
+  <div id="stats-input-section" style="margin: 8px 0px;">
     <div id="bot-input">
       <label for="selected-bot" required>Select a Bot:</label>
       <select id="selected-bot">
@@ -22,16 +22,16 @@ breadcrumbs:
           {% endfor %}
       </select>
     </div>
-    <div id="levels-input">
+    <div id="levels-input" style="margin: 8px 0px;">
       <label for="from-level">From Level:</label>
       <input type="number" id="from-level" value="0" min="0" max="29">
       
       <label for="to-level">To Level:</label>
       <input type="number" id="to-level" value="30" min="1" max="30">
 
-      <span style="margin: 0px 4px;"> OR </span>
+      <br><span> OR </span><br>
 
-      <input type="checkbox" id="all-levels">All levels
+      <input type="checkbox" id="all-levels" style="height:14px; width:14px;">All levels
     </div>
     <div>
       <button id="button-calculate-stats" onclick="calculateStats()">See Stats</button>
