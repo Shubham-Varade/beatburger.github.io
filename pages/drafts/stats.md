@@ -34,7 +34,7 @@ breadcrumbs:
       <input type="checkbox" id="all-levels">All levels
     </div>
     <div>
-      <button id="button-calculate-stats" onclick="calculateStats()">
+      <button id="button-calculate-stats" onclick="calculateStats()">See Stats</button>
     </div>
   </div>
   
