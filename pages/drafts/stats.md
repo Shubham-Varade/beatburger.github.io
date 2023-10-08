@@ -42,7 +42,7 @@ breadcrumbs:
   
   <div id="results-section">
     <div id="results-title">
-      <span class="bot-name"></span>
+      <h2 class="bot-name"></h2>
     </div>
     <div id="results-data">
       <table id="results-table">
