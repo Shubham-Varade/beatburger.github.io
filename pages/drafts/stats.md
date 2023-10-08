@@ -115,7 +115,8 @@ breadcrumbs:
             return;
           }
           else {
-            createTable(botStats);
+            // createTable(botStats);
+            console.log('Everything fine till here');
           }
         }
       }
@@ -144,20 +145,20 @@ breadcrumbs:
         return calculatedStats;
       }
   
-      function createTable(botStats) {
-        let resultsTableBody = document.getElementById('results-table tbody');
-        const row;
-        botStats.forEach(levelStat => {
-          row = document.createElement("tr");
-          row.innerHTML = `
-            <td>${levelStat.level}</td>
-            <td>${levelStat.hp}</td>
-            <td>${levelStat.attack}</td>
-            <td>${levelStat.dps}</td>
-          `;
-          resultsTableBody.appendChild(row);
-        }
-      }
+      // function createTable(botStats) {
+      //   let resultsTableBody = document.getElementById('results-table tbody');
+      //   const row;
+      //   botStats.forEach(levelStat => {
+      //     row = document.createElement("tr");
+      //     row.innerHTML = `
+      //       <td>${levelStat.level}</td>
+      //       <td>${levelStat.hp}</td>
+      //       <td>${levelStat.attack}</td>
+      //       <td>${levelStat.dps}</td>
+      //     `;
+      //     resultsTableBody.appendChild(row);
+      //   }
+      // }
   </script>
 </div>
 
