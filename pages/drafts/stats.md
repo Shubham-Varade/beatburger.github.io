@@ -32,7 +32,7 @@ breadcrumbs:
 
       <br><span> OR </span><br>
 
-      <input type="checkbox" id="all-levels" style="height:14px; width:14px; margin-right:4px;">All levels
+      <input type="checkbox" id="all-levels" style="height:14px; width:14px; margin-right:4px;"> All levels
     </div>
     <div>
       <button id="button-calculate-stats" onclick="seeStats()">See Stats</button>
@@ -142,7 +142,7 @@ breadcrumbs:
   function createTable(botStats) {
     let resultsTableBody = document.getElementById('results-table tbody');
     const row;
-    botStats.forEach(levelStat => {
+    Object.keys(botStats).forEach(levelStat => {
       row = document.createElement("tr");
       row.innerHTML = `
         <td>${levelStat.level}</td>
