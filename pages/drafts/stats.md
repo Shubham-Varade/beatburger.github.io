@@ -154,7 +154,7 @@ breadcrumbs:
       resultsTableBody.appendChild(row);
     }
   }
-}
+});
 </script>
 
 
