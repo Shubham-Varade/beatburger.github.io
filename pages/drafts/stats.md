@@ -66,9 +66,8 @@ breadcrumbs:
   <!--- JavaScript Code --->
   <script>
     // document.addEventListener("DOMContentLoaded", function () {
-      console.log({{allBotDetails}});
-      // const botsDetails = {{ allBotsDetails | json }};
-      const botDetails = null;
+      const botsDetails = {{ allBotsDetails | jsonify }};
+      // const botDetails = null;
       const calculateButton = document.getElementById('button-calculate-stats');
       var resultsSection = document.getElementById('results');
   
