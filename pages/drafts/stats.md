@@ -40,7 +40,7 @@ breadcrumbs:
   
   <hr>
   
-  <div id="results-section" style="display:hidden;">
+  <div id="results-section" style="display:none;">
     <div id="results-title">
       <h2 class="bot-name"></h2>
     </div>
@@ -133,7 +133,7 @@ breadcrumbs:
         return;
       }
       else {
-        document.getElementById('#results-section').style.display = "block";
+        document.getElementById('results-section').style.display = "block";
         document.querySelector('#results-title .bot-name').innerText = selectedBot;
         createTable(botStats);
       }
