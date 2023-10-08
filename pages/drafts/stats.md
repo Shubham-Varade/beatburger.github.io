@@ -64,6 +64,7 @@ breadcrumbs:
 
 <!--- JavaScript Code --->
 <script type="text/javascript">
+  document.addEventListener("DOMContentLoaded", function () {
     const botsDetails = {{ allBotsDetails }};
     var resultsSection = document.getElementById('results'); 
 
@@ -86,7 +87,7 @@ breadcrumbs:
         }
         else if (fromLevel > 30) {
           fromLevel = 30;
-        }
+          }
         
         if (toLevel < fromLevel) {
           toLevel = fromLevel;
@@ -153,6 +154,7 @@ breadcrumbs:
       resultsTableBody.appendChild(row);
     }
   }
+}
 </script>
 
 
