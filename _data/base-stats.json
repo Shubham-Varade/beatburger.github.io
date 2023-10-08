@@ -1,8 +1,4 @@
 [
-  // Base Attack and DPS are same as level 1 stats of every bot
-  // Base HP is different from level 1. These values are provided by FW Daniel 
-  
-  // Tanks
   {
     "botName": "Barrie",
     "baseStats": {
@@ -60,7 +56,8 @@
     }
   },
 
-  // Splashers
+
+  
   {
     "botName": "Bombee",
     "baseStats": {
@@ -109,7 +106,9 @@
       "attackSpeed": 0.83
     }
   },
-  // Sheller DPS either bugged or calculated differently
+
+
+  
   {
     "botName": "Sheller",
     "baseStats": {
@@ -127,7 +126,8 @@
     }
   },
 
-  // Snipers
+
+  
   {
     "botName": "Bigshot",
     "baseStats": {
