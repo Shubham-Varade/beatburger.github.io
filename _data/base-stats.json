@@ -129,8 +129,33 @@
     "botName": "Bullseye",
     "baseStats": {
       "hp": 1300,
-      "attack": 600,
-      "attackSpeed": 4
+      "attack": 150,
+      "attackSpeed": 1.004
+    }
+  },
+  {
+    "botName": "Chomp",
+    "baseStats": {
+      "hp": 950,
+      "attack": 40,
+      "attackSpeed": 1.43
+    }
+  },
+  {
+    "botName": "Longshot",
+    "baseStats": {
+      "hp": 850,
+      "attack": 90,
+      "attackSpeed": 0.85
+    }
+  },
+  {
+    "botName": "Pupil",
+    "baseStats": {
+      "hp": 1300,
+      "attack": 45,
+      "attackSpeed": 0.3
     }
   }
+  
 ]
