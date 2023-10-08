@@ -104,7 +104,7 @@ breadcrumbs:
           }
   
           var botStats = null;
-          for(int i = 0; i < botsDetails.length; i++) {
+          for(let i = 0; i < botsDetails.length; i++) {
             if(botsDetails[i].botName.toLowerCase() == selectedBot) {
               botStats = calculateStats(i, fromLevel, toLevel);
               break;
@@ -126,7 +126,7 @@ breadcrumbs:
         const baseHp = botsDetails[matchIndex].baseStats.hp;
         const baseAttack = botsDetails[matchIndex].baseStats.attack;
         const baseDps = botsDetails[matchIndex].baseStats.dps;
-        for(int level = fromLevel; level <= toLevel; level++) {
+        for(let level = fromLevel; level <= toLevel; level++) {
           if (level > 0 && level < 5) {
             helperHP = 1 + ((5 - level) * 0.03);
           }
