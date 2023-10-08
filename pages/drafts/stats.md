@@ -153,7 +153,7 @@ breadcrumbs:
     for(let level = fromLevel; level <= toLevel; level++) {
       if (level > 0 && level < 5) {
         // Exta 1.12, 1.09, 1.06, 1.03 multiplier for levels 1 to 4 respectively 
-        helperHP = 1 + ((5 - level) * 0.03);
+        helperHp = 1 + ((5 - level) * 0.03);
       }
       else {
         helperHp = 1;
