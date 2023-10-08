@@ -146,7 +146,7 @@ breadcrumbs:
   
       function createTable(botStats) {
         let resultsTableBody = document.getElementById('results-table tbody');
-        const row;
+        let row;
         botStats.forEach(levelStat => {
           row = document.createElement("tr");
           row.innerHTML = `
