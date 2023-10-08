@@ -140,6 +140,10 @@ breadcrumbs:
     }
   }
 
+  /* Main logic of the stats calculator
+   * 
+   *
+   */
   function calculateStats(matchIndex, fromLevel, toLevel) {
     let helperHp = 1;
     let calculatedStats = [];
@@ -148,22 +152,24 @@ breadcrumbs:
     const baseDps = botsDetails[matchIndex].baseStats.dps;
     for(let level = fromLevel; level <= toLevel; level++) {
       if (level > 0 && level < 5) {
+        // Exta 1.12, 1.09, 1.06, 1.03 multiplier for levels 1 to 4 respectively 
         helperHP = 1 + ((5 - level) * 0.03);
       }
       else {
         helperHp = 1;
       }
-      // level will act as key for each level's hp and attack values  
-      calculatedStats[level-fromLevel] = {
+      // (level - fromLevel) = 0, 1, 2, ... which will act as indices for the array
+      calculatedStats[level - fromLevel] = {
         "level": level,
-        "hp": baseHp * Math.pow(1.1, level-1) * helperHp,
-        "attack": baseAttack * Math.pow(1.1, level-1),
-        "dps": baseDps * Math.pow(1.1, level-1)
+        "hp": Math.round(baseHp * Math.pow(1.1, level-1) * helperHp),
+        "attack": Math.round(baseAttack * Math.pow(1.1, level-1)),
+        "dps": Math.round(baseDps * Math.pow(1.1, level-1))
       }
     }
     return calculatedStats;
   }
 
+  // Creates table body to show calculated stats
   function createTable(botStats) {
     let resultsTableBody = document.querySelector('#results-table tbody');
     resultsTableBody.innerHTML = "";
