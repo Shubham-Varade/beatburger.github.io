@@ -65,7 +65,7 @@ breadcrumbs:
 </div>
 <!--- JavaScript Code --->
 <script>
-// document.addEventListener("DOMContentLoaded", function () {
+document.addEventListener("DOMContentLoaded", function () {
   const botsDetails = {{ allBotsDetails | jsonify }};
   // const botDetails = null;
   const calculateButton = document.getElementById('button-calculate-stats');
@@ -160,6 +160,6 @@ breadcrumbs:
       resultsTableBody.appendChild(row);
     });
   }
-// }
+}
 </script>
 
