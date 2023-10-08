@@ -81,7 +81,7 @@ breadcrumbs:
       fromValue.disabled = false;
       toValue.disable = false;
     }
-  }
+  });
   
 
   /* Get the user inputs and check if the bot data exists in the data
