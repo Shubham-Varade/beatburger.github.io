@@ -64,8 +64,9 @@ breadcrumbs:
   <!--- JavaScript Code --->
   <script>
     // document.addEventListener("DOMContentLoaded", function () {
-      console.log('Reached here: Page load');
-      const botsDetails = {{ allBotsDetails | json }};
+      console.log({{allBotDetails}});
+      // const botsDetails = {{ allBotsDetails | json }};
+      const botDetails = null;
       const calculateButton = document.getElementById('button-calculate-stats');
       var resultsSection = document.getElementById('results');
   
@@ -75,7 +76,6 @@ breadcrumbs:
        * Once everything is checked, send details to calculateStats()
        */
       function seeStats() {
-        console.log('Reaches here');
         const selectedBot = document.getElementById('selected-bot').value.toLowerCase();
         if (selectedBot == 'default') {
           alert('Please select a bot');
