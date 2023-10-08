@@ -38,6 +38,8 @@ breadcrumbs:
       <button id="button-calculate-stats">See Stats</button>
     </div>
   </div>
+
+  {{allBotsDetails}}
   
   <hr>
   
@@ -70,7 +72,7 @@ breadcrumbs:
       const calculateButton = document.getElementById('button-calculate-stats');
       var resultsSection = document.getElementById('results');
   
-      calculateButton.addEventListener('click', seeStats());
+      // calculateButton.addEventListener('click', seeStats());
   
       /* Get the user inputs and check if the bot data exists in the data
        * Once everything is checked, send details to calculateStats()
