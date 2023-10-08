@@ -149,7 +149,7 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 
   function createTable(botStats) {
-    let resultsTableBody = document.getElementById('results-table tbody');
+    let resultsTableBody = document.querySelector('#results-table tbody');
     let row;
     botStats.forEach(levelStat => {
       row = document.createElement("tr");
