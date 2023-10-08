@@ -35,7 +35,7 @@ breadcrumbs:
       <input type="checkbox" id="all-levels" style="height:14px; width:14px; margin-right:4px;"> All levels
     </div>
     <div>
-      <button id="button-calculate-stats" onclick="seeStats()">See Stats</button>
+      <button id="button-calculate-stats"">See Stats</button>
     </div>
   </div>
   
@@ -66,7 +66,10 @@ breadcrumbs:
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function () {
     const botsDetails = {{ allBotsDetails }};
-    var resultsSection = document.getElementById('results'); 
+    const calculateButton = document.getElementById('button-calculate-stats');
+    var resultsSection = document.getElementById('results');
+
+    calculateButton.addEventListener('click', seeStats());
 
     /* Get the user inputs and check if the bot data exists in the data
      * Once everything is checked, send details to calculateStats()
