@@ -43,7 +43,7 @@ breadcrumbs:
   
   <hr>
   
-  <div id="results-section"">
+  <div id="results-section">
     <div id="results-title">
       <span class="bot-name"></span>
     </div>
