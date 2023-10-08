@@ -63,103 +63,103 @@ breadcrumbs:
 </div>
 
 <!--- JavaScript Code --->
-<script type="text/javascript">
-  document.addEventListener("DOMContentLoaded", function () {
+<script>
+  // document.addEventListener("DOMContentLoaded", function () {
     console.log('Reached here: Page load');
-    const botsDetails = {{ allBotsDetails }};
-    const calculateButton = document.getElementById('button-calculate-stats');
-    var resultsSection = document.getElementById('results');
+    // const botsDetails = {{ allBotsDetails }};
+    // const calculateButton = document.getElementById('button-calculate-stats');
+    // var resultsSection = document.getElementById('results');
 
-    calculateButton.addEventListener('click', seeStats());
+    // calculateButton.addEventListener('click', seeStats());
 
-    /* Get the user inputs and check if the bot data exists in the data
-     * Once everything is checked, send details to calculateStats()
-     */
-    function seeStats() {
-      console.log('Reaches here');
-      const selectedBot = document.getElementById('selected-bot').value.toLowerCase();
-      if (selectedBot == 'default') {
-        alert('Please select a bot');
-        return;
-      }
-      else {
-        let fromLevel = parseInt(document.getElementById('from-level').value);
-        let toLevel = parseInt(document.getElementById('to-level').value);
+    // /* Get the user inputs and check if the bot data exists in the data
+    //  * Once everything is checked, send details to calculateStats()
+    //  */
+    // function seeStats() {
+    //   console.log('Reaches here');
+    //   const selectedBot = document.getElementById('selected-bot').value.toLowerCase();
+    //   if (selectedBot == 'default') {
+    //     alert('Please select a bot');
+    //     return;
+    //   }
+    //   else {
+    //     let fromLevel = parseInt(document.getElementById('from-level').value);
+    //     let toLevel = parseInt(document.getElementById('to-level').value);
 
-        // Level adjustments if incorrect
-        if (fromLevel < 1) {
-          fromLevel = 1;
-        }
-        else if (fromLevel > 30) {
-          fromLevel = 30;
-          }
+    //     // Level adjustments if incorrect
+    //     if (fromLevel < 1) {
+    //       fromLevel = 1;
+    //     }
+    //     else if (fromLevel > 30) {
+    //       fromLevel = 30;
+    //       }
         
-        if (toLevel < fromLevel) {
-          toLevel = fromLevel;
-        }
-        else if (toLevel < 1) {
-          toLevel = 1;
-        }
-        else if (toLevel > 30) {
-          toLevel = 30;
-        }
+    //     if (toLevel < fromLevel) {
+    //       toLevel = fromLevel;
+    //     }
+    //     else if (toLevel < 1) {
+    //       toLevel = 1;
+    //     }
+    //     else if (toLevel > 30) {
+    //       toLevel = 30;
+    //     }
 
-        var botStats = null;
-        for(int i = 0; i < botsDetails.length; i++) {
-          if(botsDetails[i].botName.toLowerCase() == selectedBot) {
-            botStats = calculateStats(i, fromLevel, toLevel);
-            break;
-          }
-        }
-        if(botStats == null) {
-          alert('Bot details not found! Please contact a wiki staff or send a feedback');
-          return;
-        }
-        else {
-          createTable(botStats);
-        }
-      }
-    }
+    //     var botStats = null;
+    //     for(int i = 0; i < botsDetails.length; i++) {
+    //       if(botsDetails[i].botName.toLowerCase() == selectedBot) {
+    //         botStats = calculateStats(i, fromLevel, toLevel);
+    //         break;
+    //       }
+    //     }
+    //     if(botStats == null) {
+    //       alert('Bot details not found! Please contact a wiki staff or send a feedback');
+    //       return;
+    //     }
+    //     else {
+    //       createTable(botStats);
+    //     }
+    //   }
+    // }
 
-  function calculateStats(matchIndex, fromLevel, toLevel) {
-    let helperHp = 1;
-    let calculatedStats = [];
-    const baseHp = botsDetails[matchIndex].baseStats.hp;
-    const baseAttack = botsDetails[matchIndex].baseStats.attack;
-    const baseDps = botsDetails[matchIndex].baseStats.dps;
-    for(int level = fromLevel; level <= toLevel; level++) {
-      if (level > 0 && level < 5) {
-        helperHP = 1 + ((5 - level) * 0.03);
-      }
-      else {
-        helperHp = 1;
-      }
-      // level will act as key for each level's hp and attack values  
-      calculatedStats[level-fromLevel] = {
-        "level": level,
-        "hp": baseHp * Math.pow(1.1, level-1) * helperHp,
-        "attack": baseAttack * Math.pow(1.1, level-1),
-        "dps": baseDps * Math.pow(1.1, level-1)
-      }
-    }
-    return calculatedStats;
-  }
+    // function calculateStats(matchIndex, fromLevel, toLevel) {
+    //   let helperHp = 1;
+    //   let calculatedStats = [];
+    //   const baseHp = botsDetails[matchIndex].baseStats.hp;
+    //   const baseAttack = botsDetails[matchIndex].baseStats.attack;
+    //   const baseDps = botsDetails[matchIndex].baseStats.dps;
+    //   for(int level = fromLevel; level <= toLevel; level++) {
+    //     if (level > 0 && level < 5) {
+    //       helperHP = 1 + ((5 - level) * 0.03);
+    //     }
+    //     else {
+    //       helperHp = 1;
+    //     }
+    //     // level will act as key for each level's hp and attack values  
+    //     calculatedStats[level-fromLevel] = {
+    //       "level": level,
+    //       "hp": baseHp * Math.pow(1.1, level-1) * helperHp,
+    //       "attack": baseAttack * Math.pow(1.1, level-1),
+    //       "dps": baseDps * Math.pow(1.1, level-1)
+    //     }
+    //   }
+    //   return calculatedStats;
+    // }
 
-  function createTable(botStats) {
-    let resultsTableBody = document.getElementById('results-table tbody');
-    const row;
-    botStats.forEach(levelStat => {
-      row = document.createElement("tr");
-      row.innerHTML = `
-        <td>${levelStat.level}</td>
-        <td>${levelStat.hp}</td>
-        <td>${levelStat.attack}</td>
-        <td>${levelStat.dps}</td>
-      `;
-      resultsTableBody.appendChild(row);
-    }
-  }
-});
+    // function createTable(botStats) {
+    //   let resultsTableBody = document.getElementById('results-table tbody');
+    //   const row;
+    //   botStats.forEach(levelStat => {
+    //     row = document.createElement("tr");
+    //     row.innerHTML = `
+    //       <td>${levelStat.level}</td>
+    //       <td>${levelStat.hp}</td>
+    //       <td>${levelStat.attack}</td>
+    //       <td>${levelStat.dps}</td>
+    //     `;
+    //     resultsTableBody.appendChild(row);
+    //   }
+    // }
+  // });
 </script>
 
 
