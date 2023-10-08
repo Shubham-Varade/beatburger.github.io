@@ -65,9 +65,8 @@ breadcrumbs:
 </div>
 <!--- JavaScript Code --->
 <script>
-document.addEventListener("DOMContentLoaded", function () {
+// document.addEventListener("DOMContentLoaded", function () {
   const botsDetails = {{ allBotsDetails | jsonify }};
-  // const botDetails = null;
   const calculateButton = document.getElementById('button-calculate-stats');
   var resultsSection = document.getElementById('results');
 
@@ -79,7 +78,6 @@ document.addEventListener("DOMContentLoaded", function () {
    * Once everything is checked, send details to calculateStats()
    */
   function seeStats() {
-    console.log('This triggers');
     const selectedBot = document.getElementById('selected-bot').value.toLowerCase();
     if (selectedBot == 'default') {
       alert('Please select a bot');
@@ -150,6 +148,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
   function createTable(botStats) {
     let resultsTableBody = document.querySelector('#results-table tbody');
+    resultsTableBody.innerHTML = "";
     let row;
     botStats.forEach(levelStat => {
       row = document.createElement("tr");
@@ -162,6 +161,6 @@ document.addEventListener("DOMContentLoaded", function () {
       resultsTableBody.appendChild(row);
     });
   }
-});
+// });
 </script>
 
