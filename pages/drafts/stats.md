@@ -65,6 +65,7 @@ breadcrumbs:
 <!--- JavaScript Code --->
 <script type="text/javascript">
   document.addEventListener("DOMContentLoaded", function () {
+    console.log('Reached here: Page load');
     const botsDetails = {{ allBotsDetails }};
     const calculateButton = document.getElementById('button-calculate-stats');
     var resultsSection = document.getElementById('results');
