@@ -160,6 +160,6 @@ document.addEventListener("DOMContentLoaded", function () {
       resultsTableBody.appendChild(row);
     });
   }
-}
+});
 </script>
 
