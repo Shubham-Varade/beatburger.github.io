@@ -75,7 +75,7 @@ breadcrumbs:
     let toValue = document.getElementById('to-level');
     if(allLevelsCheckbox.checked) {
       fromValue.disabled = true;
-      toValue.disable = true;
+      toValue.disabled = true;
     }
     else {
       fromValue.disabled = false;
