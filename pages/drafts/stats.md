@@ -26,7 +26,6 @@ breadcrumbs:
     <div id="levels-input" style="margin: 8px 0px;">
       <label for="from-level">From Level:</label>
       <input type="number" id="from-level" value="0" min="0" max="29">
-      
       <label for="to-level">To Level:</label>
       <input type="number" id="to-level" value="30" min="1" max="30">
 
@@ -38,8 +37,6 @@ breadcrumbs:
       <button id="button-calculate-stats">See Stats</button>
     </div>
   </div>
-
-  {{allBotsDetails | jsonify}}
   
   <hr>
   
@@ -67,12 +64,25 @@ breadcrumbs:
 <script>
 // document.addEventListener("DOMContentLoaded", function () {
   const botsDetails = {{ allBotsDetails | jsonify }};
-  const calculateButton = document.getElementById('button-calculate-stats');
   var resultsSection = document.getElementById('results');
-
+  const calculateButton = document.getElementById('button-calculate-stats');
   calculateButton.addEventListener("click", () => {  
     seeStats();
   });
+  const allLevelsCheckbox = document.getElementById('all-levels');
+  allLevelsCheckbox.addEventListener("change", () => {
+    let fromValue = document.getElementById('from-level');
+    let toValue = document.getElementById('to-level');
+    if(allLevelsCheckbox.checked) {
+      fromValue.disabled = true;
+      toValue.disable = true;
+    }
+    else {
+      fromValue.disabled = false;
+      toValue.disable = false;
+    }
+  }
+  
 
   /* Get the user inputs and check if the bot data exists in the data
    * Once everything is checked, send details to calculateStats()
@@ -84,26 +94,33 @@ breadcrumbs:
       return;
     }
     else {
-      let fromLevel = parseInt(document.getElementById('from-level').value);
-      let toLevel = parseInt(document.getElementById('to-level').value);
-
-      // Level adjustments if incorrect
-      if (fromLevel < 1) {
+      let fromLevel, toLevel;
+      if(allLevelsCheckbox.checked) {
         fromLevel = 1;
-      }
-      else if (fromLevel > 30) {
-        fromLevel = 30;
-      }
-      
-      if (toLevel < fromLevel) {
-        toLevel = fromLevel;
-      }
-      else if (toLevel < 1) {
-        toLevel = 1;
-      }
-      else if (toLevel > 30) {
         toLevel = 30;
       }
+      else {
+        fromLevel = parseInt(document.getElementById('from-level').value);
+        toLevel = parseInt(document.getElementById('to-level').value);
+  
+        // Level adjustments if incorrect
+        if (fromLevel < 1) {
+          fromLevel = 1;
+        }
+        else if (fromLevel > 30) {
+          fromLevel = 30;
+        }
+        
+        if (toLevel < fromLevel) {
+          toLevel = fromLevel;
+        }
+        else if (toLevel < 1) {
+          toLevel = 1;
+        }
+        else if (toLevel > 30) {
+          toLevel = 30;
+        }
+     }
 
       var botStats = null;
       for(let i = 0; i < botsDetails.length; i++) {
