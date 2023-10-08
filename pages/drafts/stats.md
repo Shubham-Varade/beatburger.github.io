@@ -18,9 +18,9 @@ breadcrumbs:
       <label for="selected-bot" required>Select a Bot:</label>
       <select id="selected-bot" style="height: 24px;">
         <option value="default"> -Select a bot- </option>
-          {% for bot in allBotsDetails %}
-          <option value="{{ bot.botName }}">{{ bot.botName }}</option>
-          {% endfor %}
+        {% for bot in allBotsDetails %}
+        <option value="{{ bot.botName }}">{{ bot.botName }}</option>
+        {% endfor %}
       </select>
     </div>
     <div id="levels-input" style="margin: 8px 0px;">
@@ -39,7 +39,7 @@ breadcrumbs:
     </div>
   </div>
 
-  {{allBotsDetails}}
+  {{allBotsDetails | jsonify}}
   
   <hr>
   
@@ -71,7 +71,7 @@ breadcrumbs:
       const calculateButton = document.getElementById('button-calculate-stats');
       var resultsSection = document.getElementById('results');
   
-      // calculateButton.addEventListener('click', seeStats());
+      calculateButton.addEventListener('click', seeStats());
   
       /* Get the user inputs and check if the bot data exists in the data
        * Once everything is checked, send details to calculateStats()
