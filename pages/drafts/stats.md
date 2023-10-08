@@ -117,7 +117,7 @@ breadcrumbs:
 
   function calculateStats(matchIndex, fromLevel, toLevel) {
     let helperHp = 1;
-    let calculatedStats = {};
+    let calculatedStats = [];
     const baseHp = botsDetails[matchIndex].baseStats.hp;
     const baseAttack = botsDetails[matchIndex].baseStats.attack;
     const baseDps = botsDetails[matchIndex].baseStats.dps;
@@ -142,7 +142,7 @@ breadcrumbs:
   function createTable(botStats) {
     let resultsTableBody = document.getElementById('results-table tbody');
     const row;
-    Object.keys(botStats).forEach(levelStat => {
+    botStats.forEach(levelStat => {
       row = document.createElement("tr");
       row.innerHTML = `
         <td>${levelStat.level}</td>
