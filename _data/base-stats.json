@@ -106,17 +106,6 @@
       "attackSpeed": 0.83
     }
   },
-
-
-  
-  {
-    "botName": "Sheller",
-    "baseStats": {
-      "hp": 1200,
-      "attack": 250,
-      "attackSpeed": 0
-    }
-  },
   {
     "botName": "Sheller",
     "baseStats": {
