@@ -1,23 +1,147 @@
 [
+  // Base Attack and DPS are same as level 1 stats of every bot
+  // Base HP is different from level 1. These values are provided by FW Daniel 
+  
+  // Tanks
   {
     "botName": "Barrie",
     "baseStats": {
       "hp": 1850,
       "attack": 30,
+      "attackSpeed": 0.8
     }
   },
   {
-    "botName": "Barrie",
+    "botName": "Berserker",
     "baseStats": {
-      "hp": 1850,
-      "attack": 30,
+      "hp": 2000,
+      "attack": 42,
+      "attackSpeed": 0.85
     }
   },
   {
-    "botName": "Barrie",
+    "botName": "Bullwark",
     "baseStats": {
       "hp": 1850,
-      "attack": 30,
+      "attack": 40,
+      "attackSpeed": 0.86
     }
-  }
+  },
+  {
+    "botName": "Chainer",
+    "baseStats": {
+      "hp": 1820,
+      "attack": 46,
+      "attackSpeed": 0.9
+    }
+  },
+  {
+    "botName": "Link",
+    "baseStats": {
+      "hp": 2200,
+      "attack": 40,
+      "attackSpeed": 0.85
+    }
+  },
+  {
+    "botName": "Nozzle",
+    "baseStats": {
+      "hp": 2100,
+      "attack": 35,
+      "attackSpeed": 1
+    }
+  },
+  {
+    "botName": "Thump",
+    "baseStats": {
+      "hp": 1825,
+      "attack": 40,
+      "attackSpeed": 0.85
+    }
+  },
+
+  // Splashers
+  {
+    "botName": "Bombee",
+    "baseStats": {
+      "hp": 1550,
+      "attack": 60,
+      "attackSpeed": 1.4
+    }
+  },
+  {
+    "botName": "Gyro",
+    "baseStats": {
+      "hp": 1400,
+      "attack": 40,
+      "attackSpeed": 0.3
+    }
+  },
+  {
+    "botName": "Lobbie",
+    "baseStats": {
+      "hp": 900,
+      "attack": 75,
+      "attackSpeed": 0.8
+    }
+  },
+  {
+    "botName": "Mort",
+    "baseStats": {
+      "hp": 1400,
+      "attack": 75,
+      "attackSpeed": 0.78
+    }
+  },
+  {
+    "botName": "Pluggie",
+    "baseStats": {
+      "hp": 1100,
+      "attack": 72,
+      "attackSpeed": 1.1
+    }
+  },
+  {
+    "botName": "Rocketeer",
+    "baseStats": {
+      "hp": 1000,
+      "attack": 70,
+      "attackSpeed": 0.83
+    }
+  },
+  // Sheller DPS either bugged or calculated differently
+  {
+    "botName": "Sheller",
+    "baseStats": {
+      "hp": 1200,
+      "attack": 250,
+      "attackSpeed": 0
+    }
+  },
+  {
+    "botName": "Sheller",
+    "baseStats": {
+      "hp": 1200,
+      "attack": 250,
+      "attackSpeed": 0
+    }
+  },
+
+  // Snipers
+  {
+    "botName": "Bigshot",
+    "baseStats": {
+      "hp": 1300,
+      "attack": 600,
+      "attackSpeed": 4
+    }
+  },
+  {
+    "botName": "Bullseye",
+    "baseStats": {
+      "hp": 1300,
+      "attack": 600,
+      "attackSpeed": 4
+    }
+  
 ]
