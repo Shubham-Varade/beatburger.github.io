@@ -156,7 +156,7 @@ breadcrumbs:
             <td>${levelStat.dps}</td>
           `;
           resultsTableBody.appendChild(row);
-        }
+        })
       }
   </script>
 </div>
