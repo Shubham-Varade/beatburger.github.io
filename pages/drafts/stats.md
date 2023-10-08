@@ -62,7 +62,6 @@ breadcrumbs:
 </div>
 <!--- JavaScript Code --->
 <script>
-// document.addEventListener("DOMContentLoaded", function () {
   const botsDetails = {{ allBotsDetails | jsonify }};
   var resultsSection = document.getElementById('results');
   const calculateButton = document.getElementById('button-calculate-stats');
@@ -102,7 +101,7 @@ breadcrumbs:
       else {
         fromLevel = parseInt(document.getElementById('from-level').value);
         toLevel = parseInt(document.getElementById('to-level').value);
-  
+      
         // Level adjustments if incorrect
         if (fromLevel < 1) {
           fromLevel = 1;
@@ -120,7 +119,7 @@ breadcrumbs:
         else if (toLevel > 30) {
           toLevel = 30;
         }
-     }
+      }
 
       var botStats = null;
       for(let i = 0; i < botsDetails.length; i++) {
@@ -134,6 +133,7 @@ breadcrumbs:
         return;
       }
       else {
+        document.querySelector('#results-title .bot-name').innerText = selectedBot;
         createTable(botStats);
       }
     }
@@ -177,7 +177,6 @@ breadcrumbs:
       `;
       resultsTableBody.appendChild(row);
     });
-  }
-// });
+  }  
 </script>
 
