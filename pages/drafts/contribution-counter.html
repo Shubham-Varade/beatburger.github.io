@@ -377,7 +377,7 @@ description: Count your individual contribution points from a single fullscreen 
         // Second pass - get rid of gradient
         // Ignore top 7.5% of image because tabs now have a gradient 
         // for (let y = 0; y < imageData.height; y++) {
-        for (let y = 0.075; y < imageData.height; y++) {
+        for (let y = 0.075 * imageData.height; y < imageData.height; y++) {
             for (let x = 0; x < imageData.width; x++) {
                 const pixelIndex = (y * imageData.width + x) * 4;
 
