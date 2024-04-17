@@ -60,5 +60,4 @@ breadcrumbs:
     </div>
   </div>
 </div>
-<script src='/assets/js/statsCalculator.js');
-</script>
+<script src='/assets/js/statsCalculator.js'></script>
