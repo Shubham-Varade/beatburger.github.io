@@ -1,0 +1,6 @@
+#results-table.table,
+#results-table .th,
+#results-table .td {
+  border: 1px solid white,
+  padding: 8px 16px
+}
