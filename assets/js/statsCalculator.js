@@ -1,28 +1,3 @@
-/* One time tasks
- * Tasks to perform on page load
- */
-// Grab all bot stats and details in data file
-const botsDetails = {{ allBotsDetails | jsonify }};
-var resultsSection = document.getElementById('results');
-const calculateButton = document.getElementById('button-calculate-stats');
-calculateButton.addEventListener("click", () => {  
-  seeStats();
-});
-const allLevelsCheckbox = document.getElementById('all-levels');
-allLevelsCheckbox.addEventListener("change", () => {
-  let fromValue = document.getElementById('from-level');
-  let toValue = document.getElementById('to-level');
-  if(allLevelsCheckbox.checked) {
-    fromValue.disabled = true;
-    toValue.disabled = true;
-  }
-  else {
-    fromValue.disabled = false;
-    toValue.disabled = false;
-  }
-});
-
-
 /* Get the user inputs and check if the bot data exists in the data
  * Once everything is checked, send details to calculateStats()
  */
