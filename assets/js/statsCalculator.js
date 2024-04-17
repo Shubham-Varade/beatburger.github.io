@@ -1,5 +1,3 @@
-<!--- JavaScript Code --->
-
 /* One time tasks
  * Tasks to perform on page load
  */
