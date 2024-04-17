@@ -1,4 +1,5 @@
 [
+  // Tanks
   {
     "botName": "Barrie",
     "baseStats": {
@@ -40,6 +41,14 @@
     }
   },
   {
+    "botName": "Meteor",
+    "baseStats": {
+      "hp": 2050,
+      "attack": 43,
+      "attackSpeed": 0.9
+    }
+  },
+  {
     "botName": "Nozzle",
     "baseStats": {
       "hp": 2100,
@@ -57,7 +66,7 @@
   },
 
 
-  
+  // Splashers
   {
     "botName": "Bombee",
     "baseStats": {
@@ -116,7 +125,7 @@
   },
 
 
-  
+  // Snipers  
   {
     "botName": "Bigshot",
     "baseStats": {
@@ -157,5 +166,224 @@
       "attackSpeed": 0.3
     }
   }
+
   
+  // Chasers
+  {
+    "botName": "Drill",
+    "baseStats": {
+      "hp": 1350,
+      "attack": 90,
+      "attackSpeed": 0.75
+    }
+  },
+  {
+    "botName": "Fork",
+    "baseStats": {
+      "hp": 1000,
+      "attack": 90,
+      "attackSpeed": 0.5
+    }
+  },
+  {
+    "botName": "Phantom",
+    "baseStats": {
+      "hp": 1150,
+      "attack": 90,
+      "attackSpeed": 0.57
+    }
+  },
+  {
+    "botName": "Ram",
+    "baseStats": {
+      "hp": 1600,
+      "attack": 90,
+      "attackSpeed": 0.75
+    }
+  },
+  {
+    "botName": "Slash",
+    "baseStats": {
+      "hp": 800,
+      "attack": 90,
+      "attackSpeed": 0.5
+    }
+  },
+  {
+    "botName": "Slicer",
+    "baseStats": {
+      "hp": 950,
+      "attack": 90,
+      "attackSpeed": 0.5
+    }
+  },
+
+
+  // Evaders
+  {
+    "botName": "Comet",
+    "baseStats": {
+      "hp": 1180,
+      "attack": 90,
+      "attackSpeed": 1.08
+    }
+  },
+  {
+    "botName": "Dune Bug",
+    "baseStats": {
+      "hp": 750,
+      "attack": 90,
+      "attackSpeed": 0.4
+    }
+  },
+  {
+    "botName": "Flamer",
+    "baseStats": {
+      "hp": 900,
+      "attack": 90,
+      "attackSpeed": 0.85
+    }
+  },
+  {
+    "botName": "Froggy",
+    "baseStats": {
+      "hp": 1250,
+      "attack": 90,
+      "attackSpeed": 0.86
+    }
+  },
+  {
+    "botName": "Frosty",
+    "baseStats": {
+      "hp": 1400,
+      "attack": 90,
+      "attackSpeed": 0.4
+    }
+  },
+  {
+    "botName": "Hornet",
+    "baseStats": {
+      "hp": 1150,
+      "attack": 90,
+      "attackSpeed": 1
+    }
+  },
+  {
+    "botName": "Icicool",
+    "baseStats": {
+      "hp": 1200,
+      "attack": 90,
+      "attackSpeed": 0.8
+    }
+  },
+  {
+    "botName": "Inkjet",
+    "baseStats": {
+      "hp": 1050,
+      "attack": 90,
+      "attackSpeed": 1
+    }
+  },
+
+
+  // Brawlers
+  {
+    "botName": "Brute",
+    "baseStats": {
+      "hp": 1300,
+      "attack": 90,
+      "attackSpeed": 1.4
+    }
+  },
+  {
+    "botName": "KO",
+    "baseStats": {
+      "hp": 1550,
+      "attack": 90,
+      "attackSpeed": 0.75
+    }
+  },
+  {
+    "botName": "Nibbles",
+    "baseStats": {
+      "hp": 1450,
+      "attack": 90,
+      "attackSpeed": 1
+    }
+  },
+  {
+    "botName": "Scatter",
+    "baseStats": {
+      "hp": 1125,
+      "attack": 90,
+      "attackSpeed": 1.25
+    }
+  },
+  {
+    "botName": "Virus",
+    "baseStats": {
+      "hp": 1650,
+      "attack": 90,
+      "attackSpeed": 0.63
+    }
+  },
+  {
+    "botName": "Yanky",
+    "baseStats": {
+      "hp": 1400,
+      "attack": 90,
+      "attackSpeed": 0.8
+    }
+  },
+
+
+  // Supports
+  {
+    "botName": "Beat",
+    "baseStats": {
+      "hp": 1600,
+      "attack": 90,
+      "attackSpeed": 0.67
+    }
+  },
+  {
+    "botName": "Bouncer",
+    "baseStats": {
+      "hp": 1225,
+      "attack": 90,
+      "attackSpeed": 0.9
+    }
+  },
+  {
+    "botName": "Gusto",
+    "baseStats": {
+      "hp": 1500,
+      "attack": 90,
+      "attackSpeed": 0.7
+    }
+  },
+  {
+    "botName": "Halo",
+    "baseStats": {
+      "hp": 1100,
+      "attack": 90,
+      "attackSpeed": 0.75
+    }
+  },
+  {
+    "botName": "Shuffle",
+    "baseStats": {
+      "hp": 1250,
+      "attack": 90,
+      "attackSpeed": 0.66
+    }
+  },
+  {
+    "botName": "Tether",
+    "baseStats": {
+      "hp": 1450,
+      "attack": 90,
+      "attackSpeed": 0.7
+    }
+  }
 ]
