@@ -62,9 +62,8 @@ breadcrumbs:
 </div>
 
 <!--- Javascript Code -->
-<script src='/beatburger.github.io/assets/js/statsCalculator.js'>
-  
-  // Grab all bot stats and details in data file
+<script>
+  // Grab all bot stats and details in data file from "_data/base-stats.json"
   const botsDetails = {{ allBotsDetails | jsonify }};
   var resultsSection = document.getElementById('results');
   const calculateButton = document.getElementById('button-calculate-stats');
