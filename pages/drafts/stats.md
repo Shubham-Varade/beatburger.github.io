@@ -19,7 +19,7 @@ breadcrumbs:
       <select id="selected-bot" style="height: 24px;">
         <option value="default"> -Select a bot- </option>
         {% for bot in allBotsDetails %}
-        <option value="{{ bot.botName }}">{{ bot.botName }}</option>
+          <option value="{{ bot.botName }}">{{ bot.botName }}</option>
         {% endfor %}
       </select>
     </div>
@@ -60,6 +60,9 @@ breadcrumbs:
     </div>
   </div>
 </div>
+<script src="/assets/js/statsCalculator.js"></script>
+
+/*
 <!--- JavaScript Code --->
 <script>
   const botsDetails = {{ allBotsDetails | jsonify }};
@@ -187,3 +190,4 @@ breadcrumbs:
   }  
 </script>
 
+*/
