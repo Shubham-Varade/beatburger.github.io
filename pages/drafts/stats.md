@@ -60,4 +60,28 @@ breadcrumbs:
     </div>
   </div>
 </div>
-<script src='/beatburger.github.io/assets/js/statsCalculator.js'></script>
+
+<!--- Javascript Code -->
+<script src='/beatburger.github.io/assets/js/statsCalculator.js'>
+  
+  // Grab all bot stats and details in data file
+  const botsDetails = {{ allBotsDetails | jsonify }};
+  var resultsSection = document.getElementById('results');
+  const calculateButton = document.getElementById('button-calculate-stats');
+  calculateButton.addEventListener("click", () => {  
+    seeStats();
+  });
+  const allLevelsCheckbox = document.getElementById('all-levels');
+  allLevelsCheckbox.addEventListener("change", () => {
+    let fromValue = document.getElementById('from-level');
+    let toValue = document.getElementById('to-level');
+    if(allLevelsCheckbox.checked) {
+      fromValue.disabled = true;
+      toValue.disabled = true;
+    }
+    else {
+      fromValue.disabled = false;
+      toValue.disabled = false;
+    }
+  });
+</script>
