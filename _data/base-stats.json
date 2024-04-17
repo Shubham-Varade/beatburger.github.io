@@ -1,5 +1,4 @@
 [
-  // Tanks
   {
     "botName": "Barrie",
     "baseStats": {
@@ -66,7 +65,7 @@
   },
 
 
-  // Splashers
+  
   {
     "botName": "Bombee",
     "baseStats": {
@@ -125,7 +124,7 @@
   },
 
 
-  // Snipers  
+  
   {
     "botName": "Bigshot",
     "baseStats": {
@@ -168,7 +167,7 @@
   }
 
   
-  // Chasers
+  
   {
     "botName": "Drill",
     "baseStats": {
@@ -219,7 +218,7 @@
   },
 
 
-  // Evaders
+  
   {
     "botName": "Comet",
     "baseStats": {
@@ -286,7 +285,7 @@
   },
 
 
-  // Brawlers
+  
   {
     "botName": "Brute",
     "baseStats": {
@@ -337,7 +336,7 @@
   },
 
 
-  // Supports
+  
   {
     "botName": "Beat",
     "baseStats": {
