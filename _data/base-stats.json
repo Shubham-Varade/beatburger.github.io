@@ -172,7 +172,7 @@
     "botName": "Drill",
     "baseStats": {
       "hp": 1350,
-      "attack": 90,
+      "attack": 105,
       "attackSpeed": 0.75
     }
   },
@@ -180,7 +180,7 @@
     "botName": "Fork",
     "baseStats": {
       "hp": 1000,
-      "attack": 90,
+      "attack": 84,
       "attackSpeed": 0.5
     }
   },
@@ -188,7 +188,7 @@
     "botName": "Phantom",
     "baseStats": {
       "hp": 1150,
-      "attack": 90,
+      "attack": 125,
       "attackSpeed": 0.57
     }
   },
@@ -196,7 +196,7 @@
     "botName": "Ram",
     "baseStats": {
       "hp": 1600,
-      "attack": 90,
+      "attack": 105,
       "attackSpeed": 0.75
     }
   },
@@ -204,7 +204,7 @@
     "botName": "Slash",
     "baseStats": {
       "hp": 800,
-      "attack": 90,
+      "attack": 85,
       "attackSpeed": 0.5
     }
   },
@@ -212,7 +212,7 @@
     "botName": "Slicer",
     "baseStats": {
       "hp": 950,
-      "attack": 90,
+      "attack": 75,
       "attackSpeed": 0.5
     }
   },
@@ -223,7 +223,7 @@
     "botName": "Comet",
     "baseStats": {
       "hp": 1180,
-      "attack": 90,
+      "attack": 75,
       "attackSpeed": 1.08
     }
   },
@@ -231,7 +231,7 @@
     "botName": "Dune Bug",
     "baseStats": {
       "hp": 750,
-      "attack": 90,
+      "attack": 40,
       "attackSpeed": 0.4
     }
   },
@@ -239,7 +239,7 @@
     "botName": "Flamer",
     "baseStats": {
       "hp": 900,
-      "attack": 90,
+      "attack": 40,
       "attackSpeed": 0.85
     }
   },
@@ -247,7 +247,7 @@
     "botName": "Froggy",
     "baseStats": {
       "hp": 1250,
-      "attack": 90,
+      "attack": 65,
       "attackSpeed": 0.86
     }
   },
@@ -255,7 +255,7 @@
     "botName": "Frosty",
     "baseStats": {
       "hp": 1400,
-      "attack": 90,
+      "attack": 20,
       "attackSpeed": 0.4
     }
   },
@@ -263,7 +263,7 @@
     "botName": "Hornet",
     "baseStats": {
       "hp": 1150,
-      "attack": 90,
+      "attack": 84,
       "attackSpeed": 1
     }
   },
@@ -271,7 +271,7 @@
     "botName": "Icicool",
     "baseStats": {
       "hp": 1200,
-      "attack": 90,
+      "attack": 50,
       "attackSpeed": 0.8
     }
   },
@@ -279,7 +279,7 @@
     "botName": "Inkjet",
     "baseStats": {
       "hp": 1050,
-      "attack": 90,
+      "attack": 75,
       "attackSpeed": 1
     }
   },
@@ -290,7 +290,7 @@
     "botName": "Brute",
     "baseStats": {
       "hp": 1300,
-      "attack": 90,
+      "attack": 170,
       "attackSpeed": 1.4
     }
   },
@@ -298,7 +298,7 @@
     "botName": "KO",
     "baseStats": {
       "hp": 1550,
-      "attack": 90,
+      "attack": 60,
       "attackSpeed": 0.75
     }
   },
@@ -306,7 +306,7 @@
     "botName": "Nibbles",
     "baseStats": {
       "hp": 1450,
-      "attack": 90,
+      "attack": 135,
       "attackSpeed": 1
     }
   },
@@ -314,7 +314,7 @@
     "botName": "Scatter",
     "baseStats": {
       "hp": 1125,
-      "attack": 90,
+      "attack": 30,
       "attackSpeed": 1.25
     }
   },
@@ -322,7 +322,7 @@
     "botName": "Virus",
     "baseStats": {
       "hp": 1650,
-      "attack": 90,
+      "attack": 50,
       "attackSpeed": 0.63
     }
   },
@@ -330,7 +330,7 @@
     "botName": "Yanky",
     "baseStats": {
       "hp": 1400,
-      "attack": 90,
+      "attack": 60,
       "attackSpeed": 0.8
     }
   },
@@ -341,7 +341,7 @@
     "botName": "Beat",
     "baseStats": {
       "hp": 1600,
-      "attack": 90,
+      "attack": 60,
       "attackSpeed": 0.67
     }
   },
@@ -349,7 +349,7 @@
     "botName": "Bouncer",
     "baseStats": {
       "hp": 1225,
-      "attack": 90,
+      "attack": 66,
       "attackSpeed": 0.9
     }
   },
@@ -357,7 +357,7 @@
     "botName": "Gusto",
     "baseStats": {
       "hp": 1500,
-      "attack": 90,
+      "attack": 48,
       "attackSpeed": 0.7
     }
   },
@@ -365,7 +365,7 @@
     "botName": "Halo",
     "baseStats": {
       "hp": 1100,
-      "attack": 90,
+      "attack": 40,
       "attackSpeed": 0.75
     }
   },
@@ -373,7 +373,7 @@
     "botName": "Shuffle",
     "baseStats": {
       "hp": 1250,
-      "attack": 90,
+      "attack": 70,
       "attackSpeed": 0.66
     }
   },
@@ -381,7 +381,7 @@
     "botName": "Tether",
     "baseStats": {
       "hp": 1450,
-      "attack": 90,
+      "attack": 45,
       "attackSpeed": 0.7
     }
   }
