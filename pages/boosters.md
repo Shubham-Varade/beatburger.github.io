@@ -46,7 +46,7 @@ breadcrumbs:
     </tr>
   </thead> -->
   <tbody>
-    <tr><td colspan="4" id="common-boosters"><h2>Common Boosters {{ (commonBoosterCount) }}</h2></td></tr>
+    <tr><td colspan="4" id="common-boosters"><h2>Common Boosters ({{ commonBoosterCount }})</h2></td></tr>
     {% for booster in site.boosters %}
         {% if booster.boosterRarity == 'Common' %}
           <tr class="collection-list-entry rarity_{{booster.boosterRarity}}">
@@ -63,7 +63,7 @@ breadcrumbs:
             </tr>
         {% endif %}
     {% endfor %}
-    <tr><td colspan="4" id="special-boosters"><h2>Special Boosters {{ (specialBoosterCount) }}</h2></td></tr>
+    <tr><td colspan="4" id="special-boosters"><h2>Special Boosters ({{ specialBoosterCount }})</h2></td></tr>
     {% for booster in site.boosters %}
         {% if booster.boosterRarity == 'Special' %}
           <tr class="collection-list-entry rarity_{{booster.boosterRarity}}">
@@ -80,7 +80,7 @@ breadcrumbs:
             </tr>
         {% endif %}
     {% endfor %}
-    <tr><td colspan="4" id="rare-boosters"><h2>Rare Boosters {{ (rareBoosterCount) }}</h2></td></tr>
+    <tr><td colspan="4" id="rare-boosters"><h2>Rare Boosters ({{ rareBoosterCount }})</h2></td></tr>
     {% for booster in site.boosters %}
         {% if booster.boosterRarity == 'Rare' %}
           <tr class="collection-list-entry rarity_{{booster.boosterRarity}}">
@@ -97,7 +97,7 @@ breadcrumbs:
             </tr>
         {% endif %}
     {% endfor %}
-    <tr><td colspan="4" id="epic-boosters"><h2>Epic Boosters {{ (epicBoosterCount) }}</h2></td></tr>
+    <tr><td colspan="4" id="epic-boosters"><h2>Epic Boosters ({{ epicBoosterCount) }})</h2></td></tr>
     {% for booster in site.boosters %}
         {% if booster.boosterRarity == 'Epic' %}
           <tr class="collection-list-entry rarity_{{booster.boosterRarity}}">
@@ -114,7 +114,7 @@ breadcrumbs:
             </tr>
         {% endif %}
     {% endfor %}
-    <tr><td colspan="4" id="legendary-boosters"><h2>Legendary Boosters {{ (legendaryBoosterCount) }}</h2></td></tr>
+    <tr><td colspan="4" id="legendary-boosters"><h2>Legendary Boosters ({{ legendaryBoosterCount) }})</h2></td></tr>
     {% for booster in site.boosters %}
         {% if booster.boosterRarity == 'Legendary' %}
           <tr class="collection-list-entry rarity_{{booster.boosterRarity}}">
