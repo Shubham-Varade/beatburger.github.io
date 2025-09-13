@@ -4,6 +4,7 @@
     <!-- Styles inlined for dynamic embedding -->
     <div class="feedback-overlay" id="feedbackOverlay" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background-color: rgba(0, 0, 0, 0.5); z-index: 9999;">
         <div class="feedback-form" style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); background-color: #333; color: #fff; padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); width: 75%;">
+
             <h2 style="margin-top: 0;">Wiki Feedback</h2>
             <form id="feedbackForm">
                 <label for="nickname" style="display: block; margin-bottom: 10px; color: #fff;">Nickname:</label>
@@ -86,8 +87,7 @@
         });
 
         function sendFeedbackToDiscord(fullUrl, nickname, description, imageFile, fileExtension) {
-            // exposing the webhook in front-facing js is inevitable
-            const webhookUrl = "{{ site.data.featureData.feedback.webhookUrl }}";
+            const whUrl = atob("aHR0cHM6Ly9kaXNjb3JkLmNvbS9hcGkvd2ViaG9va3MvMTQwMzc0ODIzOTY0NzMwOTg0NS9hUk5md2JRN0lwSHhSZV9wX1lBQVo5MlBjMlYxRHdqVW55MWFBOEdhRjVDTFNWVzhBQ3dXM1NQSWdOeFp6VGRSVTU3cg==");
 
             const payload = {
                 username: "Wiki Feedbeat",
@@ -114,7 +114,7 @@
             const payloadJson = JSON.stringify(payload);
             formData.append('payload_json', JSON.stringify(payload));
 
-            fetch(webhookUrl, {
+            fetch(whUrl, {
                 method: 'POST',
                 body: formData,
             })

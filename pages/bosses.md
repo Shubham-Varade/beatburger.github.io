@@ -38,7 +38,7 @@ All Mega Bots have 50% stun resistance and Hack immunity ([Hack](</hack>), [Hack
 
 ### **Mega Slicer**
 
-![300px Mega Slicer](<https://cdn.discordapp.com/attachments/923510071026155550/993822577388695612/unknown.png>)<br>
+![300px Mega Slicer](</assets/img/bosses/mega_slicer.png>)<br>
 
 Squishy boss with a really high melee damage output
 
@@ -56,7 +56,7 @@ You should **avoid melee combat** while facing Mega Slicer, his damage output is
 
 ### Mega Chainer
 
-![300px Mega Chainer](<https://cdn.discordapp.com/attachments/923510071026155550/993954007104114708/bde640d0-685a-466f-b36d-703536803a9b.jpg>)<br>
+![300px Mega Chainer](</assets/img/bosses/mega_chainer.jpg>)<br>
 
  Tanky boss that deals moderate AoE melee damage
 
@@ -73,7 +73,7 @@ Even though his damage is on the lower side of Mega Bots, your squishy [Snipers\
 
 ### Mega Froggy
 
-![300px Mega Froggy](<https://cdn.discordapp.com/attachments/923510071026155550/993990621784195132/unknown.png>)<br>
+![300px Mega Froggy](</assets/img/bosses/mega_froggy.png>)<br>
 
  A toxic backline wiper
 
@@ -89,7 +89,7 @@ Even though his damage is on the lower side of Mega Bots, your squishy [Snipers\
 
 ### Mega Pluggie
 
-![300px Mega Pluggie](<https://cdn.discordapp.com/attachments/923510071026155550/993990684648415233/unknown.png>)<br>
+![300px Mega Pluggie](</assets/img/bosses/mega_pluggie.png>)<br>
 
  The powerhouse of Mega Bots
 
@@ -108,7 +108,7 @@ Ps. [Link](</link>) can be made immune to **Mega Pluggie**'s attacks by using 4x
 
 ### Mega Frosty
 
-![300px Mega Frosty](<https://cdn.discordapp.com/attachments/923510071026155550/995086522657296494/IMG_2682.png>)<br>
+![300px Mega Frosty](</assets/img/bosses/mega_frosty.jpg>)<br>
 
  The ultimate melee counter
 
@@ -124,7 +124,7 @@ Although having low damage, **Mega Frosty** can be hard to deal with if you lack
 
 ### Mega Dunebug
 
-![300px Mega Dunebug](<https://cdn.discordapp.com/attachments/923510071026155550/994226638701199400/unknown.png>)<br>
+![300px Mega Dunebug](</assets/img/bosses/mega_dunebug.png>)<br>
 
  The fastest and most eluvise Mega Bot
 
@@ -141,7 +141,7 @@ Ps. It might be tricky to use [Pupil](</pupil>) against him since Mega Dunebug w
 
 ### Mega Icicool
 
-![300px Mega Icicool](<https://cdn.discordapp.com/attachments/923510071026155550/994226552730562700/34dfed51-e5db-4eb2-9d07-5d5e63fcd810.jpg>)<br>
+![300px Mega Icicool](</assets/img/bosses/mega_icicool.jpg>)<br>
 
  A squishy frost turret
 
@@ -157,7 +157,7 @@ Ps. It might be tricky to use [Pupil](</pupil>) against him since Mega Dunebug w
 
 ### Mega Slash
 
-![300px Mega Slash](<https://cdn.discordapp.com/attachments/923510071026155550/994111349401604208/Mega_Slash.png>)<br>
+![300px Mega Slash](</assets/img/bosses/mega_slash.png>)<br>
 
  A melee glass cannon
 
@@ -176,20 +176,21 @@ Ps. It might be tricky to use [Pupil](</pupil>) against him since Mega Dunebug w
 ## Roaming bosses
 
 <div markdown="1" class=" ghcms ghcms-roaming">
-
 Special bosses that appear roaming in specific maps, they can be either **Super Bots** or **Unique Bandits** and beating them will grant a [Codex](</codex>) achievement
 
 Super Bots have 50% stun resistance, Hack immunity ([Hack](</hack>), [Hack Missile](</hack-missile>) and [Virus](</virus>)) and a fixed loadout
 
 Unique Bandits have 6 bots in their loadout
 
-### Super Flamer - Base level 15
+### Super Flamer
 
-![300px Super Flamer](<https://cdn.discordapp.com/attachments/923510071026155550/993826972977344532/unknown.png>)<br>
+**Base level:** 15
+
+![300px Super Flamer](</assets/img/bosses/super_flamer.png>)<br>
 
 The first Super Bot you'll face on your journey
 
-**Roams around**: [Great Desert](<https://www.botworld.wiki/maps#great-desert>)
+**Roams around**: [Great Desert](</maps#great-desert>) ([Route](</codex#great-desert>))
 
 **Bots**:1x **Mega Flamer**, 1x [Yanky](</yanky>)
 
@@ -204,11 +205,13 @@ The first Super Bot you'll face on your journey
 - Random Drop bots that are also great in this fight are: [Link](</link>), [Bigshot](</bigshot>), [Pupil](</pupil>), [Halo](</halo>), [Pluggie](</pluggie>) ([Arena](</arena>)), [Beat](</beat>) ([Arena](</arena>)) and [Mort](</mort>)
 
 
-### Wold Pack Alpha - Base level 20
+### Wolf Pack Alpha
 
-![300px Wolf Pack Alpha](<https://cdn.discordapp.com/attachments/923510071026155550/993952479681196152/unknown.png>)<br>
+**Base level:** 20
 
-**Roams around**: [Fall Grove](</maps#fall-grove>)
+![300px Wolf Pack Alpha](</assets/img/bosses/wolfpack_alpha.png>)<br>
+
+**Roams around**: [Fall Grove](</maps#fall-grove>) ([Route](</codex#fall-grove>))
 
 **Bots**: 2x [Slicer](</slicer>), 2x [Ram](</ram>), 2x [Longshot](</longshot>)
 
@@ -222,11 +225,13 @@ The first Super Bot you'll face on your journey
 
 <div markdown="1" class=" ghcms ghcms-roaming1">
 
-### Fork Tongue Fanatics Leader - Base level 22
+### Fork Tongue Fanatics Leader
 
-![300px Fork Tongue Fanatics Leader](<https://cdn.discordapp.com/attachments/923510071026155550/993952575890128916/unknown.png>)
+**Base level:** 22
 
-**Roams around**: [Saltwater Swamp](</maps#saltwater-swamp>)
+![300px Fork Tongue Fanatics Leader](</assets/img/bosses/forktongue_leader.png>)
+
+**Roams around**: [Saltwater Swamp](</maps#saltwater-swamp>) ([Route](</codex#saltwater-swamp>))
 
 **Bots**: 2x [Fork](</fork>), 2x [Thump](</thump>), 2x [Froggy](</froggy>)
 
@@ -237,13 +242,15 @@ The first Super Bot you'll face on your journey
 - [to be written...](</contribute#tbw>)
 
 
-### Super K.O. - Base level 25
+### Super K.O.
 
-![300px Super K.O.](<https://cdn.discordapp.com/attachments/923510071026155550/993823666565554186/unknown.png>)
+**Base level:** 25
+
+![300px Super K.O.](</assets/img/bosses/super_ko.png>)
 
 He hits hard from the start and will snowball in power as the battle drags on
 
-**Roams around**: [Parched Sea](<https://www.botworld.wiki/maps#parched-sea>)
+**Roams around**: [Parched Sea](</maps#parched-sea>) ([Route](</codex#parched-sea>))
 
 **Bots**:1x **Super K.O.**, 1x [Halo](</halo>)
 
@@ -252,18 +259,20 @@ He hits hard from the start and will snowball in power as the battle drags on
 **Super K.O.** is quite bulky and hits really hard, so it's not easily tanked
 
 - [Halo](</halo>) must be taken care of as soon as possible to prevent Super K.O. from being buffed
-- "Hit and Run" is the best strategy to deal with him. [Rocketeer](</rocketeer>) and [Gust](</gust>) are great for keeping him away, while [Frosty](</Frosty>) and [Dune bug](</dune-bug>) can drag him around. [Vortex](</vortex>) and [Barrier Wall](</barrier-wall>) can be used to stagger for time and counter his speed boost
+- “Hit and Run” is the best strategy to deal with him. [Rocketeer](</rocketeer>) and [Gust](</gust>) are great for keeping him away, while [Frosty](</Frosty>) and [Dune bug](</dune-bug>) can drag him around. [Vortex](</vortex>) and [Barrier Wall](</barrier-wall>) can be used to stagger for time and counter his speed boost
 - The [Bigshot](</bigshot>) \+ [Vanish](</vanish>) combo will work just fine in taking him down, but be aware that he can quickly reach and kill [Bigshot](</bigshot>) if you fail to react after his speed boost
 - The fight can be cheesed by using 2x [Corrupted Power Generation](</corrupted-power-generation>)(or 3x [Epic Power Generation](</power-generation-epic>)) + [Barrier Wall](</barrier-wall>) to keep him permanently locked while [Bullseye](</bullseye>) steadily drain his health
 
 
-### Super Virus - Base level 30
+### Super Virus
 
-![300px Super Virus](<https://cdn.discordapp.com/attachments/923510071026155550/993828686723813498/unknown.png>)
+**Base level:** 30
 
-The strongest Roaming Boss
+![300px Super Virus](</assets/img/bosses/super_virus.png>)
 
-**Roams around**: [Spore Wood](<https://www.botworld.wiki/maps#spore-woods>)
+The former strongest Roaming Boss
+
+**Roams around**: [Spore Woods](</maps#spore-woods>) ([Route](</codex#spore-woods>))
 
 **Bots**: 1x **Super Virus**, 1x [Fork](</fork>), 1x [K.O.](</ko>)
 
@@ -272,8 +281,25 @@ The strongest Roaming Boss
 **Super Virus** isn't the only threat in this fight, if you focus on him [Fork](</fork>) will wipe out your [Snipers](</bots#snipers>) and [Splashers](</bots#splashers>)
 
 - [Hyperdrain](</hyperdrain>) is essential to keep him from hacking your frontline
-- The "Hit and Run" strategy used against **Super K.O.** works well against him, but it is heavier on Botpack Power because you'll need to constantly keep his ult in check. You'll also need to save Botpack Power for an emergency [Gust](</gust>), [SCT](</supercharged-chaos-translocator>), [Proximity Translocator](</proximity-translocator>) or [Barrier-wall](</barrier-wall>) to counter his Disable skill
+- The “Hit and Run” strategy used against **Super K.O.** works well against him, but it is heavier on Botpack Power because you'll need to constantly keep his ult in check. You'll also need to save Botpack Power for an emergency [Gust](</gust>), [SCT](</supercharged-chaos-translocator>), [Proximity Translocator](</proximity-translocator>) or [Barrier-wall](</barrier-wall>) to counter his Disable skill
 - As with **Super K.O.**, this fight can be cheesed by using 2x [Corrupted Power Generation](</corrupted-power-generation>) (or 3x [Epic Power Generation](</power-generation-epic>)) + [Barrier Wall](</barrier-wall>) to keep him permanently locked while [Bullseye](</bullseye>) steadily drain his health
+
+
+### Super Berserker
+
+**Base level:** 30
+
+![300px Super Berserker](</assets/img/bosses/super_berserker.png>)
+
+The strongest Roaming Boss
+
+**Roams around**: [Ashen Shore](</maps#ashen-shore>) ([Route](</codex#ashen-shore>))
+
+**Bots**: [to be added](</contribute#tbw>)
+
+**Tips**
+
+- [to be written...](</contribute#tbw>)
 
 </div>
 
@@ -296,9 +322,9 @@ Its defensive applications are obvious, pushing enemies away and staggering them
 - *Bandit pushed into Flamethrower*
 
 
-[Bandit vs Flamethrower 320p (220kb)](<https://cdn.discordapp.com/attachments/923510071026155550/995433365631160360/Flamethrower_low_quality.mp4>)<br>
+[Bandit vs Flamethrower 320p (220kb)](</assets/img/bosses/Flamethrower_low_quality.mp4>)<br>
 
-[Bandit vs Flamethrower 640p (812kb)](<https://cdn.discordapp.com/attachments/923510071026155550/995433365962506372/Flamethrower_high_quality.mp4>)
+[Bandit vs Flamethrower 640p (812kb)](</assets/img/bosses/Flamethrower_high_quality.mp4>)
 
 - *Enemy kept into a Poison Cloud*
 
@@ -313,21 +339,21 @@ You can bait them into those environmental hazards by simply running around, but
 
 - Damaging Wild Bots and Regular Bandits with 3x [Mines](</gadgets#mine>) will defeat them right away (no loot gained)
 
-    [3x Mines vs Non-Boss enemies 320p (314kb)](<https://cdn.discordapp.com/attachments/923510071026155550/995802985961640026/3x_Mines_vs_Bandit_and_Wild_Bot_320p.mp4>)<br>
+    [3x Mines vs Non-Boss enemies 320p (314kb)](</assets/img/bosses/3x_Mines_vs_Bandit_and_Wild_Bot_320p.mp4>)<br>
 
-    [3x Mines vs Non-Boss enemies 640p (1,18MB)](<https://cdn.discordapp.com/attachments/923510071026155550/995802986376855562/3x_Mines_vs_Bandit_and_Wild_Bot_640p.mp4>)
+    [3x Mines vs Non-Boss enemies 640p (1,18MB)](</assets/img/bosses/3x_Mines_vs_Bandit_and_Wild_Bot_640p.mp4>)
 
 - Damaging Wild Bots and Regular Bandits with [Bombardment](</gadgets#bombardment>) 3 times will bring them down to around 5\~10% health
 
-    [video 3x Bombardment on Regular Enemies (592kb)](<https://cdn.discordapp.com/attachments/923510071026155550/995802499040694313/3x_Bombardment_320p.mp4>)<br>
+    [video 3x Bombardment on Regular Enemies (592kb)](</assets/img/bosses/3x_Bombardment_320p.mp4>)<br>
 
-    [3x Bombardment on Non-Boss enemies 640p (2,21MB)](<https://cdn.discordapp.com/attachments/923510071026155550/995802499334287450/3x_Bombardment_640p.mp4>)
+    [3x Bombardment on Non-Boss enemies 640p (2,21MB)](</assets/img/bosses/3x_Bombardment_640p.mp4>)
 
 - Damaging a [Boss](</bosses>) unit with 5x [Mines](</gadgets#mine>) will bring it down to around 5\~10% health
 
-    [video 5x Mines vs Mega Slicer 320p (640kb)](<https://cdn.discordapp.com/attachments/923510071026155550/995802680993787926/5x_Mines_vs_Mega_Slicer_320p.mp4>)<br>
+    [video 5x Mines vs Mega Slicer 320p (640kb)](</assets/img/bosses/5x_Mines_vs_Mega_Slicer_320p.mp4>)<br>
 
-    [5x Mines vs Mega Slicer 640p (2,34MB)](<https://cdn.discordapp.com/attachments/923510071026155550/995802685271973918/5x_Mines_vs_Mega_Slicer_640p.mp4>)
+    [5x Mines vs Mega Slicer 640p (2,34MB)](</assets/img/bosses/5x_Mines_vs_Mega_Slicer_640p.mp4>)
 
 - Damaging a [Boss](</bosses>) unit with [Bombardment](</gadgets#bombardment>) 3 times will take away approximately 1/3 of its health
 
@@ -343,9 +369,9 @@ Use this data to plan ahead and choose where and how you'll use your [Gadget](</
 
 This strategy consists in locking the [Boss](</bosses>) into a [Barrier Wall](</barrier-wall>) cell and make use of [Bullseye](</bullseye>)'s Third Eye perk (AI Lv5), which allows him to hit through obstacles, to theoretically take any of them down safely<br>
 
-[video Bullseye vs Mega Chainer 320p (907kb)](<https://cdn.discordapp.com/attachments/923510071026155550/995802877966680084/Bullseye_vs_Chainer_320p.mp4>)<br>
+[video Bullseye vs Mega Chainer 320p (907kb)](</assets/img/bosses/Bullseye_vs_Chainer_320p.mp4>)<br>
 
-[Bullseye + Barrier Wall vs Mega Chainer 640p (3,41MB)](<https://cdn.discordapp.com/attachments/923510071026155550/995802878310633522/Bullseye_vs_Chainer_640p.mp4>)
+[Bullseye + Barrier Wall vs Mega Chainer 640p (3,41MB)](</assets/img/bosses/Bullseye_vs_Chainer_640p.mp4>)
 
 - You'll either need to use 3x [Epic Power Generation](</power-generation-epic>) or 2x [Corrupted Power Generation](</power-generation-corrupted>) boosters to guarantee enough Botpack Energy to keep using [Barrier Wall](</barrier-wall>), since locking the [Boss](</bosses>) with a single one isn't that reliable
 - Using a [Corrupted Sharpshooter Range](</corrupted-sharpshooter-range-epic>) would allow [Bullseye](</bullseye>) to basically reach the entire field (optional)

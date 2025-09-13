@@ -1,7 +1,7 @@
 ---
 layout: bot
-contributors: "Hex, Soft, caique concê"
-updatedAt: "2021-01-15"
+contributors: "Hex, Soft, caique concê, Wolfhaize"
+updatedAt: "9-8-2025"
 
 
 title: "Longshot (Special Sniper)"
@@ -81,8 +81,8 @@ commonMat3: "Double Cog"
 ---
 
 
-### 'Full Damage Build' by Hex
-- **BAACB:** Medium range sniper, can cause crits and have high damage. Full Damage Build. Recommended Build.
+### 'Full Damage Build' by Hex(Recommended)
+- **BAACB:** Medium range sniper, can cause crits and have high damage. Full Damage Build.
 
 ### 'Sniper Build' by Hex
 - **AABCB:** Long range Sniper with moderate damage. If it finishes an enemy, it recharges railgun by 35%.
@@ -93,9 +93,8 @@ commonMat3: "Double Cog"
 ## Comments
 
 ### Evaluation by Soft
-While there are other snipers that have better DPS than Longshot on paper, they are far more easily countered than Longshot. Longshot has very consistent damage and a failsafe ability to buy itself some time when enemies get close. A very safe pick that can easily find a great spot in any team composition. Tier S.
+While there are other snipers that have better DPS than Longshot on paper, they are far more easily countered than Longshot. Longshot has very consistent damage and a failsafe ability to buy itself some time when enemies get close. A very safe pick that can easily find a great spot in any team composition.
 
 ### Tips
-A must use in the early game
-Equip with Crit Boosters to maximize effect for it's AI ""Critical strikes"".
+A must use in the early game.
 

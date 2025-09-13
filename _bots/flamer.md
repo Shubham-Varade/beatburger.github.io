@@ -1,7 +1,7 @@
 ---
 layout: bot
-contributors: "Hex, Soft, BloodxReaper"
-updatedAt: "2021-01-15"
+contributors: "Hex, Soft, BloodxReaper, Wolfhaize"
+updatedAt: "9-8-2025"
 
 
 title: "Flamer (Special Evader)"
@@ -87,13 +87,13 @@ commonMat3: "Hardened Fiberglass"
 - **AACAA:** More damage and deals stun.
 
 ### 'Survivor Build' by Hex
-- **BBCBB:** Does not deal more damage but more survivalbility.
+- **BBCBB:** Does not deal more damage but more survivability.
 
 ## Comments
 
 ### Evaluation by Soft
-Having damage that is nothing to laugh at with well-picked AI, Flamer's DPS is fantastic and splashes in a wide arc. Ontop of that, his Flamefield ability deals extremely high damage, optionally heals him and forces enemies to run away from him, allowing Flamer to continue kiting if previously slowed or rooted. Tier A.
+Having damage that is nothing to laugh at with well-picked AI, Flamer's DPS is fantastic and splashes in a wide arc. Ontop of that, his Flamefield ability deals extremely high damage, optionally heals him and forces enemies to run away from him, allowing Flamer to continue kiting if previously slowed or rooted.
 
 ### Tips
-- Best combo with [Bombee](/Bombee) for Farming Ai XP
+- Best combo with Chainer and Beat(AI-4 required).
 

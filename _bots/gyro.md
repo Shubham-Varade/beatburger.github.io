@@ -1,20 +1,20 @@
 ---
 layout: bot
-contributors: "TsengFayt"
-updatedAt: "2023-02-12"
+contributors: "TsengFayt, Wolfhaize"
+updatedAt: "9-8-2025"
 
 
 title: "Gyro (Epic Splasher)"
 name: "Gyro"
 description: "A melee splasher that can chase down its enemies and even pull them in to do extra damage.\n- Speciality: ?\n- Note: send your tips to the wiki team\n"
-imageUrl: "https://www.botworld.wiki/assets/img/bots/gyro.png"
+imageUrl: "/assets/img/bots/gyro.png"
 breadcrumbs:
   Bots: "/bots"
   Tank: "/bots#splashers"
 
 botName: "Gyro"
 botDescription: "A bot made from a giant spinning blade, keep your distance if you can."
-botImageUrl: "https://www.botworld.wiki/assets/img/bots/gyro.png"
+botImageUrl: "/assets/img/bots/gyro.png"
 botType: "Splasher"
 botRarity: "Epic"
 botRaritySortOrder: "4"
@@ -79,3 +79,16 @@ commonMat1: "Clear Oil"
 commonMat2: "Mini Sensor"
 commonMat3: "Double Cog"
 ---
+
+
+### 'Damage Build' by Wolfhaize(Recommended)
+- **BACBA:** Focuses solely on increasing damage capability.
+
+
+### 'Chaser Build' by Wolfhaize
+- **ABCAA:** Makes Gyro more of a Chaser(much better movement), at the cost of some damage capability.
+
+
+### Evaluation by Wolfhaize
+Being a melee splasher isn't easy. Gyro is forced to have enemies in close proximity in order to damage them, hence himself very susceptible to dangerous melee bots like brawlers and chasers. The 'Chaser Build' AI tree can be taken if Gyro is going to be used to deal with pesky ranged bots, but when coupled with Chainer, the 'Damage Build' can be used to get the most out of his damage capabilities.
+

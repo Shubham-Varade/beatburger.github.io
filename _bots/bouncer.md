@@ -1,20 +1,20 @@
 ---
 layout: bot
-contributors: "Anonymous"
-updatedAt: "2023-07-23"
+contributors: "Wolfhaize"
+updatedAt: "9-8-2025"
 
 
 title: "Bouncer (Epic Support)"
 name: "Bouncer"
 description: "A ranged bot that keeps enemies at a distance. Takes a while to warm up to strangers."
-imageUrl: "https://www.botworld.wiki/assets/img/bots/bouncer.png"
+imageUrl: "/assets/img/bots/bouncer.png"
 breadcrumbs:
   Bots: "/bots"
   Support: "/bots#supports"
 
 botName: "Bouncer"
 botDescription: "A ranged bot that keeps enemies at a distance. Takes a while to warm up to strangers."
-botImageUrl: "https://www.botworld.wiki/assets/img/bots/bouncer.png"
+botImageUrl: "/assets/img/bots/bouncer.png"
 botType: "Support"
 botRarity: "Epic"
 botRaritySortOrder: "4"
@@ -81,3 +81,21 @@ commonMat1: "Sparky Wires"
 commonMat2: "Sputtering Generator"
 commonMat3: "Thick Tube"
 ---
+
+
+### 'Support Build' by Wolfhaize(Recommended)
+- **BBCBB:** Allows Bouncer to boost and defend the bots its next to better.
+
+### 'Damage Build' by Wolfhaize
+- **AACAA:** Bouncer is more focused on dealing and boosting damage, but provides limited safety.
+
+
+## Comments
+
+### Evaluation by Wolfhaize
+One of the most underrated bots in the game, Bouncer often gets overshadowed Halo due to their boosting capabilities being limited by proximity. However due to the ranged damage, slowness, and Maglev, Bouncer becomes a very capable 'bouncer' for a ranged bot. He will slow and keep any approaching enemies away, while giving a damage boost even higher than Beat!
+
+### Tips
+AI-1B is recommended when Bouncer is next to bots that also have a 50% ultimate charge AI path selected. This allows Bouncer to provide a boost very early on, a strategy that can be extremely useful in ending battles quickly.
+Bouncer also enables some very unorthodox but effective tactics. When in a team with Rocketeer(knockback), Icicool(slowness), they can completely lockdown slow melee bots and many that have no way to close distance.
+

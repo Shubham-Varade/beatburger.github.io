@@ -1,7 +1,7 @@
 ---
 layout: bot
-contributors: "Hex, O.J., Soft, BloodxReaper"
-updatedAt: "2022-07-09"
+contributors: "Hex, O.J., Soft, BloodxReaper, Wolfhaize"
+updatedAt: "9-8-2025"
 
 
 title: "Dune Bug (Special Evader)"
@@ -83,12 +83,13 @@ commonMat2: "Double Cog"
 commonMat3: "Hardened Fiberglass"
 ---
 
-###  'Evader Build' by Hex
+###  'Evader Build' by Wolfhaize
 
-- **BABCA:** Recommended placing early or last (Doesn't really matter cause this bot is a survivor). Can change the tide of battle.
+- **AAACA:** Recommended placing early or last (Doesn't really matter cause this bot is a survivor). Can change the tide of battle.
 
 ### 'Full Damage Build' by Hex
-- **BBBCB:** It can deal more damage to a cluster of bots. Can change the tide of battle.
+- **BBBCB:** It can deal more damage to a cluster of bots, at the expense of less survivability.
+
 
 ## Comments
 

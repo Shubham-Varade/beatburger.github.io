@@ -57,9 +57,8 @@ breadcrumbs:
 <h1 id="contracts">Contracts</h1>
 
   <div class=" ghcms ghcms-intro">
-Completing contracts is the main way to progress through a Season
 
-**Seasons**: find out how they work in [Seasons](</seasons>)<br>
+Completing contracts is the main way to progress through a Season **Seasons**: find out how they work in [Seasons](</seasons>)<br>
 
 **Earning Season Tokens while exploring**: [Exploring](</exploring>)<br>
 
@@ -71,12 +70,13 @@ Completing contracts is the main way to progress through a Season
 - Mayoral Membership allows you to skip ads and get free unlimited Contracts
 - You can reroll a contract you don't like
 - You'll get Contracts for maps/zones that are in a level range equal to Your Botpack Level +-2, keep that in mind and plan ahead your Bot upgrades
-  </div>
+
+</div>
   
 <h3 id="mapping-header">Level Mapping of Botworld</h3>
 <div id="level-mapping">
 <span class="mapping-span" id="scrapper-coast">
-  <h3><a href="https://www.botworld.wiki/maps#scrapper-coast">Scrapper Coast</a></h3>
+  <h3><a href="/maps#scrapper-coast">Scrapper Coast</a></h3>
   <strong>Level Range: 1-6</strong>
     <img class="mapping-img" src="/assets/img/maps/scrapper-coast-min.png" alt="Scrapper Coast Map">
   <strong>Zones</strong>:
@@ -93,7 +93,7 @@ Completing contracts is the main way to progress through a Season
     </ul>
 </span>
 <span class="mapping-span" id="great-desert">
-  <h3><a href="https://www.botworld.wiki/maps#great-desert">Great Desert</a></h3>
+  <h3><a href="/maps#great-desert">Great Desert</a></h3>
   <strong>Level Range: 5-11</strong>
     <img class="mapping-img" src="/assets/img/maps/great-desert-min.png" alt="Great Desert Map">
     <strong>Zones</strong>:
@@ -109,7 +109,7 @@ Completing contracts is the main way to progress through a Season
     </ul>
 </span>
 <span class="mapping-span" id="fall-grove">
-  <h3><a href="https://www.botworld.wiki/maps#fall-grove">Fall Grove</a></h3>
+  <h3><a href="/maps#fall-grove">Fall Grove</a></h3>
   <strong>Level Range: 11-15</strong>
     <img class="mapping-img" src="/assets/img/maps/fall-grove-min.png" alt="Fall Grove Map">
   <strong>Zones</strong>:
@@ -125,7 +125,7 @@ Completing contracts is the main way to progress through a Season
     </ul>
 </span>
 <span class="mapping-span" id="saltwater-swamp">
-  <h3><a href="https://www.botworld.wiki/maps#saltwater-swamp">Saltwater Swamp</a></h3>
+  <h3><a href="/maps#saltwater-swamp">Saltwater Swamp</a></h3>
   <strong>Level Range: 14-20</strong>
     <img class="mapping-img" src="/assets/img/maps/saltwater-swamp-min.png" alt="Saltwater Swamp Map">
   <strong>Zones</strong>:
@@ -141,7 +141,7 @@ Completing contracts is the main way to progress through a Season
     </ul>
 </span>
 <span class="mapping-span" id="parched-sea">
-  <h3><a href="https://www.botworld.wiki/maps#parched-sea">Parched Sea</a></h3>
+  <h3><a href="/maps#parched-sea">Parched Sea</a></h3>
   <strong>Level Range: 18-24</strong>
     <img class="mapping-img" src="/assets/img/maps/parched-sea-min.png" alt="Parched Sea Map">
   <strong>Zones</strong>:
@@ -158,7 +158,7 @@ Completing contracts is the main way to progress through a Season
     </ul>
 </span>
 <span class="mapping-span" id="spore-woods">
-  <h3><a href="https://www.botworld.wiki/maps#spore-woods">Spore Wood</a></h3>
+  <h3><a href="/maps#spore-woods">Spore Wood</a></h3>
   <strong>Level Range: 22-27</strong>
     <img class="mapping-img" src="/assets/img/maps/spore-wood-min.png" alt="Spore Wood Map">
   <strong>Zones</strong>:
@@ -172,7 +172,7 @@ Completing contracts is the main way to progress through a Season
     </ul>
 </span>
 <span class="mapping-span" id="ashen-shore">
-  <h3><a href="https://www.botworld.wiki/maps#great-desert">Ashen Shore</a></h3>
+  <h3><a href="/maps#great-desert">Ashen Shore</a></h3>
   <strong>Level Range: 25-30</strong>
     <img class="mapping-img" src="/assets/img/maps/ashen-shore-min.png" alt="Ashen Shore Map">
   <strong>Zones</strong>:
@@ -193,7 +193,7 @@ Completing contracts is the main way to progress through a Season
 
 <h2 id="contracts-list">Contracts list</h2>
 <div class=" ghcms ghcms-list">
-### World Wide Contracts
+  ### World Wide Contracts
 
 **These tasks can be completed in any map or area**
 
@@ -237,7 +237,7 @@ Completing contracts is the main way to progress through a Season
 
 Some [Contracts](</contracts>) will make more Wild Bots (e.g. “Salvage the Caravan”) or Bandits (e.g. “Rescue the Guard”, “Rescue the Caravan”) appear in their specific region. You can use that in your favor to *grind specific enemy types* in order to complete your [Codex](</codex>) tasks by beating them down without actually clearing the tasks, thus increasing their spawn density in multiple runs (do this by not salvaging that caravan or not talking to the NPC after clearing the area)<br>
 
-![half-left Pluggies Near Caravan](<https://cdn.discordapp.com/attachments/923510071026155550/1002651490437054565/pluggie_group.png>)
+![half-left Pluggies Near Caravan](</assets/img/pics/pluggie_group.png>)
 
 #### Using gadgets like [Bombardment](</gadgets#bombardment>) and [Shockwave](</gadgets#shockwave>) to bring their hp down will allow you to quickly beat them. Great to farm [AI exp](</ai>)
 
@@ -254,7 +254,7 @@ They are map-specific quest chains presented as special Contracts that'll teach 
 
 ### Stylist's Scissors
 
-Location: [Scrapper Coast](</maps#scrapper-coast>)<br>
+**Location**: [Scrapper Coast](</maps#scrapper-coast>)<br>
 
 **Requirements**: None
 
@@ -264,7 +264,7 @@ Location: [Scrapper Coast](</maps#scrapper-coast>)<br>
 
 ### Fisherman's Friend
 
-Location: [Scrapper Coast](</maps#scrapper-coast>)<br>
+**Location**: [Scrapper Coast](</maps#scrapper-coast>)<br>
 
 **Requirements**: None
 
@@ -275,7 +275,7 @@ Location: [Scrapper Coast](</maps#scrapper-coast>)<br>
 
 ### A Thorny Issue
 
-Location: [Scrapper Coast](</maps#scrapper-coast>)<br>
+**Location**: [Scrapper Coast](</maps#scrapper-coast>)<br>
 
 **Requirements**: None
 
@@ -285,7 +285,7 @@ Location: [Scrapper Coast](</maps#scrapper-coast>)<br>
 
 ### Hide and Seek
 
-Location: [Scrapper Coast](</maps#scrapper-coast>)<br>
+**Location**: [Scrapper Coast](</maps#scrapper-coast>)<br>
 
 **Requirements**: None
 
@@ -293,11 +293,9 @@ Location: [Scrapper Coast](</maps#scrapper-coast>)<br>
 - Reward: [Bandage Strip](</cosmetics>)
 
 
-Great Desert Side Quest
-
 ### Ancient Ruins
 
-Location: [Great Desert](</maps#great-desert>)<br>
+**Location**: [Great Desert](</maps#great-desert>)<br>
 
 **Requirements**: Botpack level 3
 
@@ -307,7 +305,7 @@ Location: [Great Desert](</maps#great-desert>)<br>
 
 ### The Watchtower
 
-Location: [Great Desert](</maps#great-desert>)<br>
+**Location**: [Great Desert](</maps#great-desert>)<br>
 
 **Requirements**: Botpack level 3
 
@@ -320,9 +318,9 @@ Location: [Great Desert](</maps#great-desert>)<br>
 - Reward: 50 Tokens
 
 
-### Secrets of Spore Wood
+### Secrets of Spore Woods
 
-**Location**: [Spore Wood](</maps#spore-woods>)<br>
+**Location**: [Spore Woods](</maps#spore-woods>)<br>
 
 **Requirements**: Botpack Lv23
 
