@@ -94,9 +94,11 @@ breadcrumbs:
             </tr>
         {% endif %}
     {% endfor %}
-    <tr><td colspan="4" id="legendary-boosters"><h2>Legendary Boosters</h2></td></tr>
+    {% legendaryBoosterCount = 0 %}
+    <tr><td colspan="4" id="legendary-boosters"><h2>Legendary Boosters {{legendaryBoosterCount}}</h2></td></tr>
     {% for booster in site.boosters %}
         {% if booster.boosterRarity == 'Legendary' %}
+          {% legendaryBoosterCount += 1 %}
           <tr class="collection-list-entry rarity_{{booster.boosterRarity}}">
               <td class="table-pic">
              <a href="{{ site.baseurl }}{{ booster.url }}" title="Everything about the Booster {{ booster.boosterName }}"> 
